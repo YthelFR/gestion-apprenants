@@ -1,0 +1,29 @@
+https://tailwindcomponents.com/component/simple-login
+https://tailwindcomponents.com/component/form-register-component-1
+https://tailwindcomponents.com/component/sticky-header-desktop
+https://tailwindcomponents.com/component/tailwind-css-button-colors-by-material-tailwind
+https://tailwindcomponents.com/component/user-table
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://getbootstrap.com/docs/5.2/components/navs-tabs/
+https://mdbootstrap.com/docs/standard/navigation/navbar/
+https://getbootstrap.com/docs/5.2/forms/overview/
+https://mdbootstrap.com/docs/standard/forms/overview/
+https://mdbootstrap.com/docs/standard/content-styles/colors/
