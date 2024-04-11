@@ -1,4 +1,4 @@
-https://tailwindcomponents.com/component/simple-login
+/* https://tailwindcomponents.com/component/simple-login
 https://tailwindcomponents.com/component/form-register-component-1
 https://tailwindcomponents.com/component/sticky-header-desktop
 https://tailwindcomponents.com/component/tailwind-css-button-colors-by-material-tailwind
@@ -27,3 +27,15 @@ https://mdbootstrap.com/docs/standard/navigation/navbar/
 https://getbootstrap.com/docs/5.2/forms/overview/
 https://mdbootstrap.com/docs/standard/forms/overview/
 https://mdbootstrap.com/docs/standard/content-styles/colors/
+
+Sur le papier c'est simple :
+Tu as une application en une seule page (donc full dynamique), la SPA donc
+La SPA fait des requêtes asynchrones (ajax) pour récupérer des données côté serveur, et les réponses envoyées par le serveur sont au format JSON (json_encode() en PHP, JSON.parse() en JS)
+Le côté serveur a une architecture MVC : la classe modèle s'occupe de la récupération de données et la classe contrôleur s'occupe de faire le lien entre le front et le modèle */
+
+/* Le navigateur (utilisateur) demande quelque chose au serveur web via une URL
+Le serveur web traite l'URL grâce au routeur (une route est globalement une URL qui est associée à un contrôleur)
+Le contrôleur associé à la route est exécuté, il reçoit toutes les données de la requête HTTP (par exemple l'URL, les variables $_SERVER, etc.)
+Le contrôleur demande les données au modèle, car le modèle s'occupe de la partie récupération des données (toute la partie requête SQL)
+Le contrôleur crée la vue (généralement avec un moteur de template, du genre Twig en PHP) grâce aux données récupérées chez le modèle : il fait donc le lien entre le modèle et la vue
+Le contrôleur crée une réponse HTTP qui est retransmise au navigateur (utilisateur) */
