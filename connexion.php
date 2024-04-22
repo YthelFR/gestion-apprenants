@@ -9,28 +9,6 @@
     <title>Document</title>
 </head>
 
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-<!--
-  This example requires updating your template:
-
-  ```
-  <html class="h-full bg-white">
-  <body class="h-full">
-  ```
--->
 <div class="flex min-h-full flex-col justify-center py-12">
     <div class="bg-[#F8F9FA] px-24 py-4 m-auto">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
